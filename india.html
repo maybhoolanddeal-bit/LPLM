@@ -1,72 +1,169 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>LIVE PROPERTY LIVE MONEY - ONLINE PLATFORM</title>
+<title>LIVE PROPERTY LIVE MONEY - ONLINE PLATFORM</title>
 
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+<style>
+* {
+    box-sizing: border-box;
+}
 
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            color: white;
-            text-align: center;
-            background: linear-gradient(135deg, #173653, #47718b);
-            min-height: 100vh;
-        }
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
 
-        header {
-            padding: 35px 15px;
-            background: rgba(0, 0, 0, 0.30);
-        }
+    background:
+        radial-gradient(circle at 15% 20%, #087da5 0%, transparent 30%),
+        radial-gradient(circle at 85% 75%, #174d9c 0%, transparent 35%),
+        linear-gradient(135deg, #03142e, #062c52, #020b20);
 
-        h1 {
-            font-size: 32px;
-            margin: 0;
-        }
+    background-attachment: fixed;
+}
 
-        main {
-            padding: 55px 15px;
-            min-height: 450px;
-        }
+.overlay {
+    min-height: 100vh;
+    padding: 25px 15px;
+    background: rgba(0, 10, 30, 0.25);
+}
 
-        h2 {
-            font-size: 30px;
-        }
+header {
+    text-align: center;
+    padding: 35px 10px;
+}
 
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
+header h1 {
+    font-size: clamp(25px, 5vw, 40px);
+    color: #ffffff;
+    text-shadow: 0 0 15px #00bfff;
+    margin-bottom: 12px;
+}
 
-        footer {
-            padding: 18px;
-            background: rgba(0, 0, 0, 0.35);
-        }
-    </style>
+header h2 {
+    font-size: clamp(19px, 4vw, 28px);
+    color: #42e8ff;
+}
+
+.network {
+    max-width: 950px;
+    margin: 20px auto 40px;
+    padding: 25px;
+    text-align: center;
+    border: 1px solid rgba(66, 232, 255, 0.55);
+    border-radius: 15px;
+    background: rgba(5, 35, 75, 0.65);
+    box-shadow: 0 0 25px rgba(0, 191, 255, 0.2);
+}
+
+.network p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.deals {
+    max-width: 1100px;
+    margin: 35px auto;
+    padding: 20px 0;
+    border-top: 1px solid #42e8ff;
+    border-bottom: 1px solid #42e8ff;
+    overflow: hidden;
+}
+
+marquee {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.state-area {
+    max-width: 850px;
+    margin: 35px auto;
+    padding: 25px;
+    text-align: center;
+    background: rgba(255,255,255,0.09);
+    border-radius: 15px;
+}
+
+.state-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px 35px;
+    color: #ffffff;
+    background: #087da5;
+    border: 1px solid #42e8ff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.state-link:hover {
+    background: #0b5485;
+    box-shadow: 0 0 18px #42e8ff;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 14px;
+}
+</style>
 </head>
 
 <body>
 
-    <header>
-        <h1>LIVE PROPERTY LIVE MONEY</h1>
-    </header>
+<div class="overlay">
 
-    <main>
-        <h2>ONLINE PLATFORM</h2>
-        <p>Welcome to our online property platform.</p>
-        <p>Explore our property-related online services.</p>
-    </main>
+<header>
+    <h1>LIVE PROPERTY LIVE MONEY</h1>
+    <h2>ONLINE PROPERTY PLATFORM</h2>
+</header>
 
-    <footer>
-        LIVE PROPERTY LIVE MONEY
-    </footer>
+<section class="network">
+    <h2>WELCOME TO OUR DIGITAL PROPERTY NETWORK</h2>
+
+    <p>
+        Connect with property owners, buyers and brokers
+        through LIVE PROPERTY LIVE MONEY.
+    </p>
+
+    <p>
+        Explore property opportunities and live deals
+        through our online platform.
+    </p>
+</section>
+
+<section class="deals">
+    <marquee direction="left" scrollamount="5">
+        LIVE DEALS - EOI NO 12026, AGRI. LAND,
+        GAT NO 1190-PART, VILLAGE NASHIRABAD,
+        TALUKA JALGAON, DISTRICT JALGAON, MAHARASHTRA
+    </marquee>
+</section>
+
+<section class="state-area">
+    <h2>EXPLORE PROPERTY OPPORTUNITIES</h2>
+
+    <a class="state-link" href="maharashtra.html">
+        MAHARASHTRA
+    </a>
+</section>
+
+<footer>
+    © LIVE PROPERTY LIVE MONEY
+    <br>
+    All Rights Reserved
+</footer>
+
+</div>
 
 </body>
 </html>
+
