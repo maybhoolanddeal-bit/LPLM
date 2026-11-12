@@ -89,6 +89,43 @@ footer {
     padding: 25px;
     font-size: 14px;
 }
+    
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 25px auto;
+}
+
+.upload-requirement-button {
+    display: inline-block;
+    padding: 16px 38px;
+    background-color: #FFD700;
+    color: #003300 !important;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+.current-requirement-button {
+    display: inline-block;
+    padding: 16px 38px;
+    background-color: #00CC66;
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
 </style>
 </head>
 
@@ -101,16 +138,21 @@ footer {
     <h2>PROPERTY PURCHASE REQUIREMENTS</h2>
 </header>
 
-<div class="welcome">
-    Welcome to LIVE PROPERTY LIVE MONEY.
+<div class="button-container">
 
-    Find property requirements submitted by prospective
-    buyers. Only approved buyer requirements will be
-    displayed here after publication.
+    <a href="https://forms.gle/LniWPSpFyU8NAHpMA"
+       class="upload-requirement-button"
+       target="_blank">
+       UPLOAD REQUIREMENT
+    </a>
+
+    <a href="current%20registered%20client.html"
+       class="current-requirement-button">
+       CURRENT REQUIREMENT
+    </a>
+
 </div>
 
-<section class="requirement-area">
-    <h2>APPROVED BUYER REQUIREMENTS</h2>
 
     <div id="buyer-list">
         <p style="text-align:center;grid-column:1/-1;">
