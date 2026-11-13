@@ -24,6 +24,7 @@
         }
 
         .overlay {
+            position: relative;
             min-height: 100vh;
             padding: 25px 15px;
             background: rgba(0, 0, 0, 0.4);
@@ -38,21 +39,28 @@
             text-shadow: 2px 2px 5px black;
         }
 
-        .location-link {
-            display: inline-block;
-            margin: 20px;
-            padding: 14px 35px;
-            background: #075e9b;
-            color: white;
-            text-decoration: none;
-            font-size: 22px;
-            font-weight: bold;
-            border-radius: 8px;
-        }
+.location-link {
+    position: absolute;
+    left: 50%;
+    top: 61%;
+    transform: translate(-50%, -50%);
 
-        .location-link:hover {
-            background: #087fc9;
-        }
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px black;
+    cursor: pointer;
+}
+
+.location-link:hover {
+    color: yellow;
+}
     </style>
 </head>
 
