@@ -16,17 +16,19 @@
             min-height: 100vh;
             font-family: Arial, sans-serif;
             background-image: url("MAHARASHTRA BACK GROUND.jpg");
-            background-size: cover;
+            background-size: 100% 100%;
             background-position: center;
+            background-repeat: no-repeat;
             background-attachment: fixed;
             color: white;
             text-align: center;
         }
 
         .overlay {
+            position: relative;
             min-height: 100vh;
             padding: 25px 15px;
-            background: rgba(0, 0, 0, 0.45);
+            background: rgba(0, 0, 0, 0.10);
         }
 
         h1 {
@@ -40,25 +42,28 @@
             text-shadow: 2px 2px 5px black;
         }
 
-       
-
         .location-link {
-            display: inline-block;
-            margin: 20px;
-            padding: 14px 35px;
-            background: #075e9b;
+            position: absolute;
+            left: 47%;
+            top: 41%;
+            transform: translate(-50%, -50%);
+
+            background: transparent;
+            border: none;
+            padding: 0;
+            margin: 0;
+
             color: white;
-            text-decoration: none;
-            font-size: 22px;
+            font-size: 19px;
             font-weight: bold;
-            border-radius: 8px;
+            text-decoration: none;
+            text-shadow: 2px 2px 4px black;
+            cursor: pointer;
         }
 
         .location-link:hover {
-            background: #087fc9;
+            color: yellow;
         }
-
-      
 
         footer {
             margin-top: 45px;
@@ -73,12 +78,9 @@
         <h1>LIVE PROPERTY LIVE MONEY</h1>
         <h2>MAHARASHTRA PROPERTY PLATFORM</h2>
 
-
-       <a class="location-link" href="jalgaon%20district.html">
+        <a class="location-link" href="jalgaon%20district.html">
             JALGAON
         </a>
-
-       
 
         <footer>
             LIVE PROPERTY LIVE MONEY
